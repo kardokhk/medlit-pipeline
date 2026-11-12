@@ -363,7 +363,7 @@ def render(S: list[dict], loaded) -> str:
     L += ["", "Table: Validation flags raised (a record can carry several).", ""]
 
     L += ["## Run log", "", _row(hdr), _row(sep)]
-    L.append(_row(["Started (UTC)"] + [s["started"] for s in S]))
+    L.append(_row(["Started (UTC)"] + [s["started"][:16].replace("T", " ") for s in S]))
     L.append(_row(["Elapsed (minutes)"] + [f"{s['elapsed_s'] / 60:.1f}" for s in S]))
     L.append(_row(["API requests (network, cached replays)"] +
                   [f"{s['http']['network']:,}, {s['http']['cache']:,}" for s in S]))
