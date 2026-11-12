@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article">
+ <front>
+  <journal-meta><journal-title-group><journal-title>Test Journal of Medicine</journal-title></journal-title-group></journal-meta>
+  <article-meta>
+   <article-id pub-id-type="pmid">12345678</article-id>
+   <article-id pub-id-type="pmcid">PMC7654321</article-id>
+   <article-id pub-id-type="doi">10.1000/TEST.2024.001</article-id>
+   <title-group><article-title>Effect of <italic>X</italic> on outcome Y: a cohort study</article-title></title-group>
+   <permissions><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0</license-p></license></permissions>
+   <abstract><sec><title>Background</title><p>We studied X.</p></sec></abstract>
+   <counts><table-count count="2"/><ref-count count="3"/></counts>
+  </article-meta>
+ </front>
+ <body>
+  <sec><title>Introduction</title><p>Intro paragraph one. See <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2337/figshare.25726644">Supplementary Table 6</ext-link> and <ext-link xlink:href="https://doi.org/10.2337/figshare.25726644">Table 7</ext-link>; protocol at <ext-link xlink:href="https://osf.io/g3mdu/">OSF</ext-link>.</p></sec>
+  <sec><title>Methods</title><p>Methods lead paragraph.</p>
+   <sec><title>Statistics</title><p>We used a Cox model.</p></sec>
+   <p>Closing methods paragraph.</p>
+  </sec>
+  <sec><title>Results</title><p>Results text <xref ref-type="table" rid="T1">Table 1</xref>.</p>
+   <table-wrap id="T1"><label>Table 1</label><caption><p>Baseline characteristics</p></caption>
+    <table>
+     <thead>
+      <tr><th rowspan="2">Variable</th><th colspan="2">Group</th></tr>
+      <tr><th>A</th><th>B</th></tr>
+     </thead>
+     <tbody>
+      <tr><td colspan="3">Demographics</td></tr>
+      <tr><td>Age</td><td>50</td><td>52</td></tr>
+      <tr><td>BMI, kg/m<sup>2</sup></td><td>HbA<sub>1c</sub> 7</td><td>8</td></tr>
+      <tr><td rowspan="2">Sex</td><td>M 10</td><td>M 12</td></tr>
+      <tr><td>F 8</td><td>F 9</td></tr>
+     </tbody>
+    </table>
+    <table-wrap-foot><p>Values are counts.</p></table-wrap-foot>
+   </table-wrap>
+   <table-wrap id="T2"><label>Table 2</label><caption><p>Scanned table</p></caption><graphic xlink:href="tab2"/></table-wrap>
+  </sec>
+ </body>
+ <back>
+  <ref-list>
+   <ref id="R1"><label>1</label><element-citation publication-type="journal"><person-group><name><surname>Smith</surname><given-names>J</given-names></name></person-group><article-title>A trial</article-title><source>Lancet</source><year>2020</year><volume>395</volume><fpage>10</fpage><pub-id pub-id-type="doi">10.1016/S0140-6736(20)30001-1</pub-id><pub-id pub-id-type="pmid">111</pub-id></element-citation></ref>
+   <ref id="R2"><label>2</label><mixed-citation publication-type="journal">Doe A. Another study. BMJ. 2019;1:2. doi:10.1136/bmj.l1234.</mixed-citation></ref>
+   <ref id="R3"><label>3</label><mixed-citation publication-type="web">WHO. Report. 2021. <ext-link xlink:href="https://doi.org/10.5281/zenodo.123">data</ext-link></mixed-citation></ref>
+  </ref-list>
+  <app-group><app><title>Appendix</title><p>Appendix text.</p></app></app-group>
+ </back>
+ <floats-group>
+  <supplementary-material id="S1"><label>Additional file 1</label><media xlink:href="supp1.docx"/></supplementary-material>
+ </floats-group>
+</article>

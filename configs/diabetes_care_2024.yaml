@@ -1,0 +1,6 @@
+name: diabetes_care_2024
+label: Diabetes Care, 2024
+mode: journal
+issns: ["0149-5992", "1935-5548"]
+years: [2024, 2024]
+fulltext: {pdf: true, supplements: true, figures: false, publisher_oa: true}

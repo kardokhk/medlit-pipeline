@@ -1,0 +1,6 @@
+name: bmc_medicine_2024
+label: BMC Medicine, 2024
+mode: journal
+issns: ["1741-7015"]
+years: [2024, 2024]
+fulltext: {pdf: true, supplements: true, figures: false, publisher_oa: true}
