@@ -268,7 +268,7 @@ def render(S: list[dict], loaded) -> str:
         L.append(_row([name] + [f"{s['source_counts'].get(src, 'not used'):,}" if src in s["source_counts"]
                                 else "not used" for s in S]))
     L.append(_row(["Source records harvested"] + [f"{s['n_source_records']:,}" for s in S]))
-    L.append(_row(["Unique items after linkage"] + [f"**{s['n_records']:,}**" for s in S]))
+    L.append(_row(["Unique items after linkage"] + [f"{s['n_records']:,}" for s in S]))
     for k, name in (("doi", "with DOI"), ("pmid", "with PMID"), ("pmcid", "with PMCID")):
         L.append(_row([f"Items {name}"] + [f"{s['ids'][k]:,} ({pct(s['ids'][k], s['n_records'])})" for s in S]))
     L += ["", "Table: Harvest counts, linkage and identifier coverage.", ""]
